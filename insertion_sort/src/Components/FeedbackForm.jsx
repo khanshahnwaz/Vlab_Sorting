@@ -39,7 +39,7 @@ const FeedbackForm = () =>{
 
   return (
     <div className='p-5 mt-2 grid place-items-center fixed z-10 -top-0.5 left-1/3 bottom-5'>
-    <h1 className="w-96 text-3xl font-semibold mt-2  text-center bg-white shadow-2xl rounded text-blue-500 ">Feedback Form!!</h1>
+    <h1 className="w-96 text-3xl font-semibold mt-2  text-center bg-gray-600 shadow-2xl rounded text-gray-200 ">Feedback Form!</h1>
     <div className="w-96">
   <Form className="bg-white shadow-2xl rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleOnSubmit}>
     <div className="mb-4">
@@ -83,8 +83,8 @@ const FeedbackForm = () =>{
       <TextArea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline resize-none" name="message" id="message" type="text"/>
     </div>
     <div className="flex items-center justify-between">
-      <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Submit
+      <Button className="bg-gray-600 hover:bg-gray-900 text-gray-200 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+        SUBMIT
       </Button>
     </div>
   </Form>

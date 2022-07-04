@@ -5,6 +5,7 @@ import quiz from './quiz.png'
 function PostTest() {
   let ch = <>
     <ul className="list-disc list-inside">
+    <li className="font-bold text-center text-2xl list-none ">RULES FOR THE QUIZ</li>
       <li className="font-bold text-left text-lg">This quiz consists of three questions.</li>
       <li className="font-bold text-left text-lg">Four options will be given to each question.</li>
       <li className="font-bold text-left text-lg">You cannot change your answer once it is selected.</li>

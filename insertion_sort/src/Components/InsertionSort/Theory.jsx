@@ -8,12 +8,12 @@ const Theory = () => {
     <ExperimentHeader th='text-blue-500 underline'/>
     <div className='flex justify-around pb-5'>
         <div className='m-10 p-5'>
-        <h3 className='font-semibold text-center p-7 text-3xl tracking-wider text-slate-500'>Theory</h3>
-        <small className='font-thin text-lg'>Insertion sort is a simple sorting algorithm 
+        <h3 className='font-semibold text-center p-7 text-3xl tracking-wider text-slate-900'>THEORY</h3>
+        <small className='font-thin text-lg'> Insertion sort is a simple sorting algorithm 
         that works similar to the way you sort playing cards in your hands. The array is 
         virtually split into a sorted and an unsorted part. Values from the unsorted part 
         are picked and placed at the correct position in the sorted part.</small><br/><br/>
-        <h4 className='text-lg underline font-bold text-slate-500'>Charactertistic of Insertion Sort</h4>   
+        <h4 className='text-lg underline font-bold text-slate-700'>Charactertistic of Insertion Sort</h4>   
         <ul className='font-thin text-lg list-disc'>
           <li>It is an efficient algorithm for sorting a small number of elements.</li>
           <li>It is an inplace algorithm i.e. it rearranges the number within an array.</li>
