@@ -7,7 +7,7 @@ const ExerciseQuestions = (props) => {
   const count=useContext(ExerciseContext);
 
   // First question code
-  const que0=<pre>for(i=0;i&#60; <input maxLength='1' className='w-4' id='res' ></input>; i++)<br/>
+  const que0=<pre>for(i=0;i&#60; <input maxLength='1' className='w-4 mb-1' id='res' ></input>; i++)<br/>
   <input maxLength='14' className='w-34 ml-8' id='res1'/></pre>
 
   // second question code 
