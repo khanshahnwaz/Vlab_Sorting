@@ -3,7 +3,7 @@ import you from './you.png';
 import twit from './twit.png';
 const Footer =()=>{
     return (
-        <div className='bg-black   mb-0 fixed h-1/5 inset-x-0 bottom-0'>
+        <div className='bg-black   mb-0 absolute h-1/5 inset-x-0 bottom-0'>
         <div className='sm:flex justify-evenly text-center'>
             <div className='text-white'><p className='sm:font-bold'>Community Links</p>
             <hr></hr>
@@ -17,7 +17,7 @@ const Footer =()=>{
             <ul>
                 <li className='text-xs sm:text-base'>Phone: General Information: 011-26582050</li>
                 <li className='text-xs sm:text-base'>
-                Email: support@vlabs.ac.in
+                Email: vlab@andc.du.ac.in
                 </li>
             </ul>
             </div>
